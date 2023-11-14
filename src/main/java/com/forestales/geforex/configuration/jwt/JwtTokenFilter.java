@@ -1,7 +1,7 @@
-package com.emc.springSecurityJWT.configuration.jwt;
+package com.forestales.geforex.configuration.jwt;
 
 
-import com.emc.springSecurityJWT.services.UserDetailsServiceImpl;
+import com.forestales.geforex.services.UserDetailsServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

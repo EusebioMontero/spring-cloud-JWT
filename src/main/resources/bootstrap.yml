@@ -19,6 +19,11 @@ server:
     key-store-type: PKCS12
     key-alias: autofirmadov3
 
+app:
+  security:
+    jwt:
+      secret: askljdhfgenerarclaveconalgunaherramientacomokeypassasdasdggf
+      expiration: 86400
 #app:
 #  security:
 #    jwt:

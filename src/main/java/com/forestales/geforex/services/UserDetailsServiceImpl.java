@@ -1,7 +1,7 @@
-package com.emc.springSecurityJWT.services;
+package com.forestales.geforex.services;
 
-import com.emc.springSecurityJWT.entities.UserEntity;
-import com.emc.springSecurityJWT.configuration.UserDetailImpl;
+import com.forestales.geforex.entities.UserEntity;
+import com.forestales.geforex.configuration.UserDetailImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

@@ -1,4 +1,4 @@
-package com.emc.springSecurityJWT.configuration.jwt;
+package com.forestales.geforex.configuration.jwt;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

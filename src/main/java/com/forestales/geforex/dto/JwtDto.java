@@ -1,4 +1,4 @@
-package com.emc.springSecurityJWT.dto;
+package com.forestales.geforex.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

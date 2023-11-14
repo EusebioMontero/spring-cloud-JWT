@@ -1,7 +1,7 @@
-package com.emc.springSecurityJWT.services;
+package com.forestales.geforex.services;
 
-import com.emc.springSecurityJWT.entities.UserEntity;
-import com.emc.springSecurityJWT.repositories.I_UserRepository;
+import com.forestales.geforex.entities.UserEntity;
+import com.forestales.geforex.repositories.I_UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

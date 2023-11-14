@@ -1,4 +1,4 @@
-package com.emc.springSecurityJWT.configuration;
+package com.forestales.geforex.configuration;
 
 import java.time.LocalDate;
 import java.util.Collection;
@@ -9,7 +9,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
-import com.emc.springSecurityJWT.entities.UserEntity;
+import com.forestales.geforex.entities.UserEntity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

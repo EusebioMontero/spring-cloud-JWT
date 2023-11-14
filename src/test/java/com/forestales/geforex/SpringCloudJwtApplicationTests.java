@@ -1,4 +1,4 @@
-package com.emc.springSecurityJWT;
+package com.forestales.geforex;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

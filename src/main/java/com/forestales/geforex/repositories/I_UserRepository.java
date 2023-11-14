@@ -1,6 +1,6 @@
-package com.emc.springSecurityJWT.repositories;
+package com.forestales.geforex.repositories;
 
-import com.emc.springSecurityJWT.entities.UserEntity;
+import com.forestales.geforex.entities.UserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

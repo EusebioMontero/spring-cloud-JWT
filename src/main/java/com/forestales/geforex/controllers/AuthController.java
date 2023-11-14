@@ -1,12 +1,8 @@
-package com.emc.springSecurityJWT.controllers;
+package com.forestales.geforex.controllers;
 
-import com.emc.springSecurityJWT.configuration.jwt.JwtProvider;
-import com.emc.springSecurityJWT.dto.CreateUserDto;
-import com.emc.springSecurityJWT.dto.JwtDto;
-import com.emc.springSecurityJWT.dto.LoginDto;
-import com.emc.springSecurityJWT.entities.UserEntity;
-import com.emc.springSecurityJWT.enums.E_UserAuthority;
-import com.emc.springSecurityJWT.services.UserService;
+import com.forestales.geforex.configuration.jwt.JwtProvider;
+import com.forestales.geforex.dto.JwtDto;
+import com.forestales.geforex.dto.LoginDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,13 +11,10 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
-import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/auth")

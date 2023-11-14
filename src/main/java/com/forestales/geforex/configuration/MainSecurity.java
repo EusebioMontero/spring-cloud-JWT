@@ -1,8 +1,8 @@
-package com.emc.springSecurityJWT.configuration;
+package com.forestales.geforex.configuration;
 
-import com.emc.springSecurityJWT.configuration.jwt.JwtEntryPoint;
-import com.emc.springSecurityJWT.configuration.jwt.JwtTokenFilter;
-import com.emc.springSecurityJWT.services.UserDetailsServiceImpl;
+import com.forestales.geforex.configuration.jwt.JwtEntryPoint;
+import com.forestales.geforex.configuration.jwt.JwtTokenFilter;
+import com.forestales.geforex.services.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
