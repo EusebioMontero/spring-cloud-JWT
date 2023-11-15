@@ -35,9 +35,9 @@ public class UserService {
     public boolean existByUserName (String userName){
         return userRepository.existsByUsuNombre(userName);
     }
-    public boolean existByUserMail (String userMail){
-        return userRepository.existsByUsuMail(userMail);
-    }
+//    public boolean existByUserMail (String userMail){
+//        return userRepository.existsByUsuMail(userMail);
+//    }
 
     public UserEntity saveUser(UserEntity user){
         return userRepository.save(user);

@@ -44,8 +44,8 @@ public class UserEntity {
     @Column(name = "USU_USUARIO")
     private String usuUsuario;
 
-    @Column(name = "USU_MAIL")
-    private String usuMail;
+//    @Column(name = "USU_MAIL")
+//    private String usuMail;
 
     @Transient
     private List<E_UserAuthority> roles = new ArrayList<>();
@@ -58,7 +58,7 @@ public class UserEntity {
         this.usuTipo = 0;
         this.usuFecha=LocalDate.now();
         this.usuUsuario="Usuario creado por: XXX";
-        this.usuMail=email;
+//        this.usuMail=email;
     }
     public List<E_UserAuthority> getRoles() {
         return getAuthorities();

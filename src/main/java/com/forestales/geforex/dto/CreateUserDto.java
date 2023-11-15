@@ -21,7 +21,7 @@ public class CreateUserDto {
     private String createdBy;
     private LocalDate alterDate;
     private String key;
-    private String email;
+//    private String email;
 
     public CreateUserDto(String login, String name, Integer terrServiceId, E_UserAuthority type, String key, String email) {
         this.login = login;
@@ -31,6 +31,6 @@ public class CreateUserDto {
         this.createdBy = "createdBy";
         this.alterDate = LocalDate.now();
         this.key = "tragsa";
-        this.email = email;
+//        this.email = email;
     }
 }

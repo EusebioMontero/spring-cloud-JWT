@@ -23,7 +23,7 @@ public class UserDetailImpl implements UserDetails {
     private int type;
     private String alterBy;
     private LocalDate create;
-    private String mail;
+//    private String mail;
     private String key;
     private Collection<? extends GrantedAuthority> authorities;
 
@@ -37,7 +37,7 @@ public class UserDetailImpl implements UserDetails {
                 user.getUsuTipo(),
                 user.getUsuUsuario(),
                 user.getUsuFecha(),
-                user.getUsuMail(),
+//                user.getUsuMail(),
                 user.getPassword(),
                 authorities);
     }
